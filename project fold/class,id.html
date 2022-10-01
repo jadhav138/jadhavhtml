@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class and id</title>
+    <style>
+         /* To set your global username/email configuration: */
+/* Open the command line.
+Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+Set your email address: git config --global user.email "MY_NAME@example.com"  */
+        .city{
+            background-color: blue;
+            color:black;
+            padding-left:560px;
+            margin: 10px;
+            border:2px solid black;
+        }
+        .CITY{
+            background-color:darkgrey;
+            border:2px solid black;
+            padding-left:560px;
+            margin: 10px;
+
+        }
+        .name{
+            color:royalblue;
+        }
+        /* now #id */
+        #name{
+            background-color: orange;
+            border:2px solid black;
+            padding-left:500px;
+            margin: 10px;
+        }
+        #years{
+            background-color: aqua;
+            border:2px solid darkblue;
+            padding-left:500px;
+            margin:10px;
+            border-radius:1000px;
+            border-style : dotted;
+        }
+    </style>
+</head>
+<body>
+    <!-- we are using class because 
+    we have change style/css for same ELEMENT
+    same element = different css
+    example given below   -->
+    <div class="city" >
+        <h2>DELHI</h2>
+        <P>capital of india</P>
+    </div>
+    <div class="CITY">
+        <h2>LONDON</h2>
+        <p>capital of england</p>
+    </div>
+   <!-- same element <h2> different css model -->
+    <!-- next examp we take <span> for to come in same line
+         if we take <div> it will caone in next line -->
+    <h1>my name is <span class="name"> kashappa omkar jadhav</span></h1>
+
+<!-- now id 
+    id is a unique element 
+     only for one element we can give one unique id  not like class
+    ex: <h1 id=idea>omkar<h1>
+       :<h1 id=name> omkar<h1>
+        different (unique)  id for same set or different set of elements 
+     id=" _" starts with string means word   -->
+
+     <div>
+        <h2 id="name"> this is kashappa omkar jadhav</h2>
+        <h2 id="years">iam 20 years old</h2>
+     </div>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
