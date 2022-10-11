@@ -1,0 +1,157 @@
+/* HEADDER css */
+#header{
+    width:100%;
+    height:60px;
+      border:4px solid black;  
+     background-color:red; 
+
+}
+ #icon{
+    text-align: center;
+    font-size:25px;
+    margin-top:-34px;  
+    
+  }
+  #social{
+    float:right;
+    margin-top:-90px; 
+    
+  }
+  .s-logo{
+      width:50px;
+    height:50px;  
+      margin:0px; 
+     
+     /* margin-left:300px;  */
+
+ } 
+ 
+/* IMGBAR css */
+ #imgsearch{
+    width:100%;
+    height:850px;
+    border:1px solid bisque;
+    background-image :url(https://images.unsplash.com/photo-1611601184963-9d1de9b79ff3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+
+
+background-repeat:no-repeat;    
+         /* background-size:cover;       */
+ background-size: 100%  900px;    
+ opacity:10; 
+}
+#e-logo{
+    width:250px;
+    height:250px;
+    background-color:white;
+    border-radius:200px;
+    margin-left:43%;
+    margin-top:10%;
+    position:absolute;
+    opacity: 10px;
+}
+#e-logo>span{
+    font-size: 100px;
+    color:red;
+    margin-left:90px;
+    margin-top:60px;
+    position:absolute;
+   
+
+
+}
+#text{
+    margin-left:30%;
+    margin-top:30%;
+    font-size:40px;
+    font-weight:bolder;
+    color:black;
+    
+  
+}
+#place{
+     
+    
+    width:400px;
+    height:60px;
+    margin-left:15%;
+     margin-top:40%;
+    
+    
+}
+#rest{
+   width:600px;
+   height:60px;
+   margin:20px;
+
+}
+
+/* imgsrc css */
+#quicksearch{
+   
+     width:100%;
+    /* height:500px;
+    border:3px double blue; */ 
+    
+
+}
+#quick{
+    font-size:35px;
+    color: #192F60;
+}
+#pa{
+    font-size:25px;
+    color: #8C96AB;
+
+}
+ .search{
+    /* margin-left:20%; */
+    font-size:20px;
+    color: #192F60;
+      /* display: inline;   */
+      margin-left:40px;
+       margin-top:-20px; 
+
+} 
+ .para{
+    
+    font-size:15px;
+    color: #8C96AB;
+    
+    
+    margin-left: -39px;
+    /* margin:5px;
+     margin-left: 340px;  */
+    /* display: inline; */
+ }  
+.container{
+    /* border:1px solid black; */
+    width:80%;
+    height:500px;
+}
+.inline-block{
+    display:inline-block;
+    width:300px;
+    height:100px;
+    background-color:white;
+     border:1px solid black; 
+    margin:20px;
+     padding:50px; 
+    
+}
+ img{
+
+    margin-top: -49px;
+    margin-left: -50px;
+} 
+
+
+
+
+
+/* fotter css */
+  #fotter{
+    width:50%px;
+    height:150px;
+    border:3px dotted black; 
+  }
+

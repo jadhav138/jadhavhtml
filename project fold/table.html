@@ -15,11 +15,10 @@
       }
       table, th,td{
         border:2px solid black;
-         /* background-color: blue;  */
          border-collapse: collapse;
          width: 500px;
         margin:10px;
-        padding:0px;
+        padding:10px;
         /* collapse to combine all horizontal line and vertical | and -*/
          border-collapse: collapse;  
           /* border-radius: 10px;   */
@@ -41,71 +40,77 @@
         text-align: center;
       }  
       
+      
     </style>
 </head>
 <body>
   <!-- table1 -->
-  <table>
-    <tr>
-    <th colspan="3"> PRODUCT</th>
-</tr>
-<tr>
-  <th>no.1</th>
-  <th>p.name</th>
-  <th>p.count</th>
-</tr>
-<tr>
-  <td>1</td>
-  <td>pen</td>
-  <td rowspan="3" id="idea">50</td>
-</tr>
-<tr>
-  <td>2</td>
-  <td>book</td>
-</tr>
-  <tr>
-    <td>3</td>
-     <td>dust</td>
+  <div>
+    <table>
+      <tr>
+      <th colspan="3"> PRODUCT</th>
   </tr>
-</tr>
-  </table>  
-
-<h1> home work</h1>
-
+  <tr>
+    <th>no.1</th>
+    <th>p.name</th>
+    <th>p.count</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>pen</td>
+    <td rowspan="3" id="idea">50</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>book</td>
+  </tr>
+    <tr>
+      <td>3</td>
+       <td>dust</td>
+    </tr>
+  </tr>
+    </table>  
+  
+  <h1> home work</h1>
+  
+  </div>
+  
 
 <!-- TABLE 2 -->
-<table>
+<div>
+  <table>
+    <tr>
+      <th> state of health</th>
+      <th colspan="2" class="name"> Fasting Value</th>
+      <th>After Remaning</th>
+    </tr>
+    <tr>
+      <th>   </th>
+      <th> Minimum</th>
+      <th>Normal</th>
+      <th id="eat">2 hours of Eating</th> 
+    </tr>
+    <tr>
+      <td>healthy</td>
+      <td> 70</td>
+    <td> 100</td>
+    <td> Less than 140</td>
+    </tr>
+  
   <tr>
-    <th> state of health</th>
-    <th colspan="2" class="name"> Fasting Value</th>
-    <th>After Remaning</th>
+    <td> Pre-Diabetes</td>
+    <td>101</td>
+    <td> 126</td>
+    <td> 140 to 200</td>
   </tr>
   <tr>
-    <th>   </th>
-    <th> Minimum</th>
-    <th>Normal</th>
-    <th id="eat">2 hours of Eating</th> 
+    <td> Diabetes</td>
+    <td> more than 126</td>
+    <td>Not Applicable</td>
+    <td>More than 200</td>
   </tr>
-  <tr>
-    <td>healthy</td>
-    <td> 70</td>
-  <td> 100</td>
-  <td> Less than 140</td>
-  </tr>
-
-<tr>
-  <td> Pre-Diabetes</td>
-  <td>101</td>
-  <td> 126</td>
-  <td> 140 to 200</td>
-</tr>
-<tr>
-  <td> Diabetes</td>
-  <td> more than 126</td>
-  <td>Not Applicable</td>
-  <td>More than 200</td>
-</tr>
-</table>
+  </table>
+</div>
   
 </body>
 </html>

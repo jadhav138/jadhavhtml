@@ -1,0 +1,24 @@
+ .main block{
+    border:2px solid black; 
+   width:900px;
+   height: 600px;
+   padding:20px;
+   
+}
+ .inline-block{
+    display:inline-block; 
+    left:float;
+    text-align: center;
+    width:530px;
+   height:500px; 
+    background-color: blueviolet; 
+    margin:10px;
+}   
+body{
+ background-image:url(imgfold/yt.jpg); 
+ background-repeat: no-repeat;
+  background-size:cover;  
+
+}
+ 
+
